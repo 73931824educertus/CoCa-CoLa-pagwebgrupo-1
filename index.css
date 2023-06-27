@@ -3,17 +3,32 @@
     background-size: 160px;
     background-position: center;
     text-align: center;
-    color: white;
     background-image: url(imagenescocacola/CC_Peru_Lockup_Horizontal_White.png);
     background-repeat: no-repeat;
     padding-bottom: 70px;
+    
 }
 #banner1{
+    position: absolute;
+    left: 8000px;
+    transition-property: left(hover);
+    transition-duration: 2s;
 
 }
 #banner2{
-    text-align: center;
-    font-size: 45px;
+   background-image: url(imagenescocacola/banner5.png);
+   background-repeat: no-repeat;
+   padding-bottom: 600px;
+   font-size: 40px;     
+}
+#banner3{
+    background-image: url(imagenescocacola/banner6.png);
+    background-repeat: no-repeat;
+    padding-bottom: 600px;
+    font-size: 40px; 
+    position: absolute;     
+}
+a{
+    text-decoration: none;
     color: white;
-
 }
