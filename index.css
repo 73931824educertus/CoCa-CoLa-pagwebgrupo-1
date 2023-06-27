@@ -10,7 +10,7 @@
 }
 #banner1{
     position: absolute;
-    left: 8000px;
+    left: 800px;
     transition-property: left(hover);
     transition-duration: 2s;
 
