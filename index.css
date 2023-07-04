@@ -1,39 +1,46 @@
-#title{
-    background-color: #000000; 
-    position: fixed
+.sin-padding{
+    padding-left: 0;
+    padding-right: 0;
 }
-#title img{
-    width: 240px;
-    margin-left: 500px;
-    padding-top: 20px;
-   
+.animacion-hover:hover{
+    transform: scale(1.5);
 }
 
-#banner1{
-    width: 100%;
-    margin: auto;
-    overflow: hidden;    
+/*header*/
+header{
+    background-color: #000000; 
+    position: fixed;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-#banner1 ul{
+header img{
+    width: 160px;
+}
+/*fin del header*/
+/*slider*/
+#slider{
+    overflow: hidden;
+}
+#slider ul{
     display: flex;
     animation: transicion 8s infinite alternate;
     padding: 0;
-    width: 400%;
+    width: 500%;
+    margin-bottom: 0;
 }
-#banner1 li{
+#slider li{
     width: 100%;
     list-style: none;
 }
-#banner1 img{
+#slider img{
     width: 100%;
 }
-
 @keyframes transicion{
     0%{margin-left: 0;}
     15%{margin-left: 0;}
 
     20%{margin-left: -100;}
-    35{margin-left: -100;}
+    35%{margin-left: -100;}
 
     40%{margin-left: -200%;}
     55%{margin-left: -200%;}
@@ -44,19 +51,26 @@
     80%{margin-left: -400%;}
     100%{margin-left: -400%;}
 }
+/*fin del slider*/
+
+/*inicio del banner 2 */
+#banner2{
+    overflow: hidden;
+}
 #banner2 img{
    width: 100%;
-   margin-left: 0px;
-   margin-right: 0px;
-   position: static; 
-   overflow: hidden;
+   transition: transform .7s;
 }
-.img6:hover.img{
-    -webkit-transform: scale(1:3);transform: scale(1:3)
-}
+
+/*fin de banner 2*/
+
+/*inicio del banner2-1*/
 #banner2-1 img{
+    width: 100%;
     
 }
+/*fin del banner2-1*/
+
 #banner3 img{
    overflow: hidden;
    width: 100%;
