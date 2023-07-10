@@ -12,7 +12,7 @@
 /*header (----------------------------------------------------------------------------------)*/
 header{
     background-color: #000000; 
-    position: fixed;
+    position: absolute;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -82,11 +82,13 @@ header img{
 }
 .btn-bloque h2{
     position:absolute;
-    top:200px;
+    top:90px;
     left: 0;
     right: 0;
     text-align: center;
     color: #fff;
+    font-size: 60px;
+    font-family: atom;
 }
 
 /*fin del banner2-1 (----------------------------------------------------------------------------------)*/
@@ -99,6 +101,49 @@ header img{
     width: 100%;
     transition: transform .9s;  
 }
+
+
+/* ACA EMPIEZA LAS IMG RADIUS */
+#imgr a img { 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 380px;
+    margin-left: 100px;
+    overflow: hidden;
+    display: block;
+
+}
+
+.btn-bloque h3{
+    position:absolute;
+    top:160px;
+    padding-left: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 45px;  
+}
+
+/* ACA TERMINA LAS IMG RADIUS*/
+
+
+
+ /*ACA EMPIEZA LOS LINKS*/
+#enlaces a{
+    color: #000000;
+    padding-left: 200px;
+    font-size: 25px;
+}
+
+ /*ACA EMPIEZA LOS LINKS*/
+
+
+/* ACA EMPIEZA LOS LOGOS*/
+#logos div{
+    padding-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* ACA TERMINA LOS LOGOS*/
 
 #footer{
     background-color: black;
