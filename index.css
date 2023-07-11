@@ -1,3 +1,8 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 .sin-padding{
     padding-left: 0;
     padding-right: 0;
@@ -28,7 +33,7 @@ header img{
 }
 #slider ul{
     display: flex;
-    animation: transicion 8s infinite alternate;
+    animation: transicion 10s infinite alternate;
     padding: 0;
     width: 500%;
     margin-bottom: 0;
@@ -41,19 +46,19 @@ header img{
     width: 100%;
 }
 @keyframes transicion{
-    0%{margin-left: 0;}
-    15%{margin-left: 0;}
+    0%{margin-left: -0;}
+    20%{margin-left: -0;}
 
-    20%{margin-left: -100;}
-    35%{margin-left: -100;}
+    21%{margin-left: -100;}
+    40%{margin-left: -100;}
 
-    40%{margin-left: -200%;}
-    55%{margin-left: -200%;}
+    41%{margin-left: -200%;}
+    60%{margin-left: -200%;}
 
-    60%{margin-left: -300%;}
-    75%{margin-left: -300%;}
+    61%{margin-left: -300%;}
+    80%{margin-left: -300%;}
 
-    80%{margin-left: -400%;}
+    81%{margin-left: -400%;}
     100%{margin-left: -400%;}
 }
 /*fin del slider (----------------------------------------------------------------------------------)*/
@@ -61,7 +66,7 @@ header img{
 /*inicio del banner 2 (----------------------------------------------------------------------------------)*/
 #banner2 img{
    width: 100%;
-   transition: transform .9s;
+   transition: transform .;
 }
 
 /*fin de banner 2 (----------------------------------------------------------------------------------)*/
@@ -70,7 +75,7 @@ header img{
 
 #banner2-1 img{
     width: 100%;
-    transition: transform .9s;  
+    transition: transform .7s;  
 }
 .btn-bloque{
     position: relative;
@@ -82,13 +87,13 @@ header img{
 }
 .btn-bloque h2{
     position:absolute;
-    top:90px;
+    top:180px;
     left: 0;
     right: 0;
     text-align: center;
     color: #fff;
-    font-size: 60px;
-    font-family: atom;
+    font-size: 45px;
+    font-family: sans-serif;
 }
 
 /*fin del banner2-1 (----------------------------------------------------------------------------------)*/
@@ -107,20 +112,21 @@ header img{
 #imgr a img { 
     padding-top: 100px;
     padding-bottom: 100px;
-    max-width: 380px;
+    max-width: 500px;
     margin-left: 100px;
     overflow: hidden;
     display: block;
-
+    transition: transform .7s;  
 }
-
 .btn-bloque h3{
     position:absolute;
     top:160px;
-    padding-left: 100px;
+    padding-left: 180px;
+    padding-top: 100px;
     text-align: center;
     color: #fff;
-    font-size: 45px;  
+    font-size: 45px;
+    font-family: sans-serif;  
 }
 
 /* ACA TERMINA LAS IMG RADIUS*/
@@ -139,7 +145,7 @@ header img{
 
 /* ACA EMPIEZA LOS LOGOS*/
 #logos div{
-    padding-left: 300px;
+    padding-left: 370px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -154,6 +160,10 @@ header img{
 #footer div p{
     float: right;
     font-size: 18px;
+}
+#footer div a{
+    text-decoration: none;
+    color: #fff;
 }
 #lgco{
     width: 280px;
