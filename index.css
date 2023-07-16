@@ -6,8 +6,9 @@
     transform: scale(1.5);
 }
 .over{
-    overflow: hidden;
+    overflow: hidden; 
 }
+
 
 /*header (----------------------------------------------------------------------------------)*/
 header{
@@ -106,7 +107,7 @@ header img{
 
 
 /* ACA EMPIEZA LAS IMG RADIUS */
-#imgr a img { 
+#imgr  img { 
     padding-top: 100px;
     padding-bottom: 100px;
     max-width: 500px;
@@ -134,35 +135,48 @@ header img{
 
  /*ACA EMPIEZA LOS LINKS*/
 #enlaces a{
-    text-decoration: none;
-
-
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    color: #000000;
 }
-    
-
  /*ACA TERMINA LOS LINKS*/
+
+ .cfs{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ .cfs img{
+    width: 230px;
+ }
 
 
 /* ACA EMPIEZA LOS LOGOS*/
-#logos div{
-    padding-left: 370px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-decoration: none;
+#logos {
+   
+    display:block;
+    justify-content: space-around;
+    padding-left: 600px;
 }
+
 /* ACA TERMINA LOS LOGOS*/
 
-#footer{
+footer{
     background-color: black;
     color: white;  
     font-size: 17px;
     padding-bottom: 35px;
 }
-#footer div p{
+footer p{
+    display: flex;
+    justify-content: center;
     float: right;
     font-size: 18px;
 }
-#footer div a{
+footer div a{
     text-decoration: none;
     color: #fff;
 }
