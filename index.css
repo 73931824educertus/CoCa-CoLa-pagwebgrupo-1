@@ -103,7 +103,10 @@ span img{
     line-height: 2.8rem;
     font-weight: 800;
 }
+#banner2-1 h2{
+    margin-top: -50px;
 }
+
 
 /*fin del banner2-1 (----------------------------------------------------------------------------------)*/
 
@@ -138,6 +141,8 @@ span img{
     line-height: 2.8rem;
     font-weight: 800;
 }  
+#banner3 h2{
+    margin-top: 110px;
 }
 
 /* ACA TERMINA LAS IMG RADIUS*/
@@ -145,11 +150,13 @@ span img{
 
 
  /*ACA EMPIEZA LOS LINKS*/
-#enlaces a{
+#enlaces div a{
     display: flex;
     justify-content: center;
-    width: 500px;
+    width: 29rem;
     color: #000000;
+    text-decoration: none;
+   
 }
  /*ACA TERMINA LOS LINKS*/
 
